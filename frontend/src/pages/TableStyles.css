@@ -1,0 +1,122 @@
+.page-container {
+    padding: 2rem;
+    margin-left: 250px;
+    min-height: 100vh;
+    background-color: #0f172a;
+    color: white;
+}
+
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: white;
+}
+
+.table-container {
+    background-color: #1e293b;
+    border-radius: 1rem;
+    border: 1px solid #334155;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th {
+    background-color: #0f172a;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #94a3b8;
+    border-bottom: 1px solid #334155;
+}
+
+.data-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #334155;
+    color: #e2e8f0;
+}
+
+.data-table tr:hover {
+    background-color: #334155;
+}
+
+.loading-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: #94a3b8;
+}
+
+.filter-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.search-input,
+.filter-input {
+    padding: 0.75rem 1rem;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.875rem;
+    min-width: 200px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-input:focus,
+.filter-input:focus {
+    border-color: #3b82f6;
+}
+
+.search-input {
+    flex: 1;
+}
+
+.filter-input {
+    width: 200px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-secondary {
+    background-color: #334155;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background-color: #475569;
+}
+
+.btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.page-info {
+    display: flex;
+    align-items: center;
+    color: #94a3b8;
+}
