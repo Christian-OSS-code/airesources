@@ -12,7 +12,8 @@ function App() {
         <Navbar />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            {/* <Route path="/" element={<Dashboard />} /> */}
+            <Route path="/" element={<ProductList />} />
             <Route path="/products" element={<ProductList />} />
             <Route path="/prices" element={<PriceList />} />
           </Routes>
